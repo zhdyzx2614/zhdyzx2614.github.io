@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Download TopKeeper</title>
 
-  <link rel="preload" as="font" type="font/woff2" href="/fonts/sf-pro-text_regular.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="/fonts/sf-pro-display_bold.woff2" crossorigin>
   <link rel="preload" as="image" href="/icons/windows.svg">
   <link rel="preload" as="image" href="/images/background.jpg">
 
   <style>
     @font-face {
-      font-family: 'SF Pro Text';
+      font-family: 'SF Pro Text Custom';
       src: url('/fonts/sf-pro-text_regular.woff2') format('woff2');
       font-weight: 400;
       font-style: normal;
@@ -20,9 +18,9 @@
     }
 
     @font-face {
-      font-family: 'SF Pro Display';
+      font-family: 'SF Pro Display Custom';
       src: url('/fonts/sf-pro-display_bold.woff2') format('woff2');
-      font-weight: 400;
+      font-weight: 700;
       font-style: normal;
       font-display: swap;
     }
@@ -44,7 +42,7 @@
         url('/images/background.jpg') center / cover no-repeat fixed;
       background-color: #000;
 
-      font-family: -apple-system, system-ui, 'SF Pro Text', 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text Custom', 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       display: flex;
@@ -126,10 +124,10 @@
     }
 
     .hero h1 {
-      font-family: 'SF Pro Display', -apple-system, system-ui, 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display Custom', 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
       font-size: clamp(48px, 9vw, 96px);
-      font-weight: 400;
-      letter-spacing: -0.01em;
+      font-weight: 700;
+      letter-spacing: 0.02em;
       line-height: 1.1;
       margin-bottom: 20px;
 
